@@ -2,7 +2,7 @@
 
 ### Group F: Xinchang Li, Yang Lu, Sarah Szymborski
 
-This code will allow users to produce "climate stripes" (originally created [by Ed Hawkins at the University of Reading](https://showyourstripes.info/) with a time period of their choosing and an option to add a overlapping quantitative line plot.
+This code will allow users to produce "climate stripes" (originally created [by Ed Hawkins at the University of Reading](https://showyourstripes.info/)) with a time period of their choosing and an option to add a overlapping quantitative line plot.
 
 #### Data source:
 - Global Historical Climatology Network (GHCN) - Daily data, from [NCEI API version 2](https://www.ncdc.noaa.gov/cdo-web/webservices/v2)
