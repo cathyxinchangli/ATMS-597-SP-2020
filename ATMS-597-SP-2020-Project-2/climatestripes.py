@@ -23,11 +23,10 @@ import matplotlib.dates as mdates
 # %matplotlib inline
 
 # assumptions:
-# 1. Reference period: 1970.1.1 - 1998.12.31 due to data availability
+# 1. Reference period: 1970.1.1 - 1999.12.31
 # 2. Anomaly: raw, not standardized
-# 3. Leap year: (TBD Yang?)
+# 3. Leap year
 # 4. Treatment for extra days outside of 52 weeks
-# 5. ...
 
 """# Functions
 
@@ -325,7 +324,7 @@ End Date: 12/31/2013
 ### Get reference dataset
 """
 
-df_ref = loop_request(locationid="CITY:SP000001", startdate=datetime.date(1970, 1, 1), enddate=datetime.date(1998, 12, 31), stationid="GHCND:SPE00155259")
+df_ref = loop_request(locationid="CITY:SP000001", startdate=datetime.date(1970, 1, 1), enddate=datetime.date(1999, 12, 31), stationid="GHCND:SPE00155259")
 df_ref = clean_up(df_ref)
 
 # Uncomment to display output
