@@ -18,7 +18,7 @@ This code will allow users to produce "climate stripes" (originally created [by 
 - Climate stripes (with the optional line plot if called for) in PNG
 
 #### Assumptions:
-- Reference period is taken to be 1970.1.1 - 1999.12.31.
+- Reference period is taken to be 1970.1.1 - 1999.12.31
 - Anomaly is calculated as temperature departure from the average of the reference period, not the standardized by the standard 
 - For weekly anomaly calculation, to maintain a fixed 52 weeks per year, data on December 31 for all years are dropped, and data for on December 30 are dropped for leap years
 
